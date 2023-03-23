@@ -5,7 +5,7 @@
 }
 :root{
   --dark-color:#19283f;
-  --main-color:#1f99ce;
+  --main-color:#0071bc;
   --red-color:#ff3150;
   --yellow-color:#ffc400;
   --green-color:#0cdb69;
@@ -28,6 +28,9 @@ body{
   padding: 0;
 }
 
+.navbar-collapse {
+  padding-left: 30px;
+}
 
 /* .sticky-top {
   border: 1px solid;
@@ -79,7 +82,7 @@ body{
   z-index: 10000000000000000000;
 }
 .cards{
-  margin: 120px 0 120px 0;
+  padding: 80px 0 80px 0;
 }
 .box{
   background-color: #eee;
@@ -153,16 +156,15 @@ body{
 }
 .forms .items{
   display: grid;
-  grid-template-columns: 50% 50%;
-  gap: 31px;
+  grid-template-columns: 48% 47%;
+  gap: 4%;
   align-items: center;
-
 }
 
 .forms .items input ,
 .forms .items textarea {
   outline: none;
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.649);
   background: none;
   width: 100%;
   color: white;
@@ -191,6 +193,7 @@ body{
 }
 .map img{
   width: 500px;
+  height: 360px;
 }
 /* // Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) { 
@@ -263,7 +266,7 @@ body{
 .contact form input ,
 .contact form  textarea {
   outline: none;
-  border: 1px solid rgb(0, 0, 0);
+  border: 1px solid rgba(0, 0, 0, 0.3);
   background: none;
   width: 100%;
   color: white;
