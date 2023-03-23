@@ -147,6 +147,7 @@ body{
   background: var(--bs-blue);
   color: white;
   padding: 110px;
+  background-color: var(--main-color);
 }
 .forms h3{
   text-transform: capitalize;
