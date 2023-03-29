@@ -1,0 +1,86 @@
+.section_one .row ul li{
+  position: relative;
+  margin: 0;
+}
+ul{
+  margin-left: 0;
+  padding-left: 1rem;
+}
+.section_one .row ul li::before{
+  content: "\f00c";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  c: 15px;
+  height: 15px;
+  position: absolute;
+  left: -20px;
+  top: 10%;
+  color: var(--bs-blue);
+  border: 2px solid;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5px;
+}
+.section_one .row .box img {
+  width: 100%;
+  height: 20rem;
+}
+
+/* start section_two */
+.section_two .row .box{
+  height: 15rem;
+  padding-top: 6rem;
+}
+.layer {
+  display: flex;
+  width: 0%;
+  height:0%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  align-items: center;
+  padding: 0;
+  justify-content: flex-start;
+  text-align: left;
+  color: white;
+  background: var(--main-color);
+  overflow: hidden;
+}
+.section_two .row .box:hover .layer{
+  height: 100%;
+  width: 100%;
+
+  transition: .6s;
+}
+.section_two .row .box .layer span{
+  width: 20rem;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 84px 61px;
+}
+/* END section_two */
+/* start section_three */
+  .section_three{
+    background-color: var(--main-color);
+    height: 18rem;
+  }
+  .section_three .box {
+    width: 60%;
+  }
+  .section_three .box p{
+    color: white;
+  }
+  .section_three .box button{
+    height: 45px;
+    width: 180px;
+  }
+/* End section_three */
+/* start section_four */
+  .section_four .card img{
+    height: 12rem;
+  }
+/* End section_four */

@@ -5,14 +5,25 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="icon" href="./image/logo_two.png">
+  <link rel="shortcut" href="./image/logo_two.png">
+  <link rel="apple-touch-icon" href="./image/logo_two.png">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
   <link rel="stylesheet" href="./css/bootstrap.min.css">
-  <link rel="stylesheet" href="./contact.css">
+
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/navbar.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/home.css">
 </head>
 <body>
+  <!-- start navbar -->
   <nav class="navbar navbar-expand-lg sticky-top  ">
     <div class="container">
       <a class="navbar-brand" href="#"><img src="./image/thumb_logo-1.png" alt=""></a>
@@ -22,16 +33,16 @@
       <div class="collapse navbar-collapse" id="main">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link text-capitalize p-lg-3" aria-current="page" href="#">Home</a>
+            <a class="nav-link text-capitalize p-lg-3 active" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-capitalize p-lg-3" href="#">About</a>
+            <a class="nav-link text-capitalize p-lg-3" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-capitalize p-lg-3" href="#">blog</a>
+            <a class="nav-link text-capitalize p-lg-3" href="blog.html">blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-capitalize p-lg-3 active" href="#">contact US</a>
+            <a class="nav-link text-capitalize p-lg-3 " href="contact.html">contact US</a>
           </li>
         </ul>
         <div class="search ps-3 pe-3 border-start d-none d-lg-block ">
@@ -40,117 +51,195 @@
       </div>
     </div>
   </nav>
-  <!-- start contact us -->
-  <div class="contact_us">
-      <h1 class="text-capitalize">contact us</h1>
-  </div>
-    <div class="cards" >
-      <div class="container  ">
-        <div class="row   justify-content-around ">
-          <div class="col-md-6 col-lg-4  mb-4">
-            <div class="box ">
-              <h5 class="mb-3 fs-5">phone number </h5>
-              <p>call : 0454 405 430</p>
-              <p>fax : 0342044</p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4  mb-4">
-            <div class="box   ">
-              <h5 class="mb-3">email addres </h5>
-              <p>treedialog@gmail.ocm</p>
-              <p>sdfsdr@gmail.com</p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-4">
-            <div class="box  ">
-              <h5 class="mb-3">office address </h5>
-              <p> sagittis purus sit amet</p>
-              <p>volutpat consequat</p>
-            </div>
-          </div>
-        </div>
-      </div>
+  <!-- end navbar -->
+  <!-- start global_land -->
+  <div class="global_land">
+    <div class="box">
+      <h1 class="text-capitalize">welcome to dreeDilalong</h1>
+      <p class="text-capitalize">your platform for arboriculture and urban forestry</p>
+      <button class="btns mt-5 rounded text-capitalize">get start</button>
     </div>
-
-  <!-- end contact us -->
-  <!-- form-->
-  <div class="forms">
+  </div>
+  <!-- end global_land -->
+  <!-- start section_one -->
+  <div class="section_one mt-5 mb-5">
     <div class="container">
-      <div class="items">
-        <form>
-          <h3>have any question?</h3>
-          <div class="mb-3">
-            <input type="email" class="rounded" placeholder="Enter Your Name" >
+      <div class="row gap-6 justify-content-center">
+        <div class="col-md-6 col-lg-6">
+          <div class="box mb-5">
+            <img src="./image/360_F_289652334_nBplOu8YUDpQNz6FCsjsFJEHMrRavbvZ.jpg" class="img-fluid" alt="">
           </div>
-          <div class="mb-3">
-            <input type="email" class="rounded" placeholder="Enter Your Email">
+        </div>
+        <div class="col-md-6 col-lg-6">
+          <div class="box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem laborum soluta praesentium cupiditate accusamus placeat quia,
+            quisquam commodi, nam in enim voluptatum? Expedita repellat maxime error ex dolorem vitae assumenda?</p>
+            <ul>
+              <li> project manogers </li>
+              <li>urban piannes , and </li>
+              <li>community decision makers</li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem laborum soluta praesentium </p>
+            <button class="btns">view more</button>
           </div>
-          <div class="mb-3">
-            <textarea name="" id="" cols="30" rows="10" class="pt-2 rounded" placeholder="Enter Your Message"></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Submit More</button>
-        </form>
-        <div class="item map d-flex ">
-          <iframe class="align-self-end" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.33750346623!2d-73.97968099999999!3d40.6974881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2z2YbZitmI2YrZiNix2YPYjCDYp9mE2YjZhNin2YrYp9iqINin2YTZhdiq2K3Yr9ip!5e0!3m2!1sar!2seg!4v1679722898222!5m2!1sar!2seg"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
         </div>
       </div>
     </div>
   </div>
+  <!-- end section_one -->
+  <!-- start section_two -->
+  <div class="section_two">
+    <div class="container">
+    <h2 class="fs-1">we cover a wide Range of topics</h2>
+    <p>our website is full of informative and engoging articles on all things telated to tress.</p>
 
-    <!-- form-->
-    <div class="footer pt-5 pb-5 text-white-50 text-center text-md-start">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 mb-4">
+        <div class="box rounded-4 position-relative  bg-secondary-subtle text-center  align-items-center">
+          <i class="fa-solid fa-leaf fs-1 d-block mb-4"></i>
+          <h5>including arboriculture </h5>
+          <div class=" rounded-4 layer"> <span> we cater to diverse interests and levels of expertise</span></div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 mb-4">
+        <div class="box rounded-4 position-relative  bg-secondary-subtle text-center  align-items-center">
+          <i class="fa-solid fa-leaf fs-1 d-block mb-4"></i>
+          <h5>including arboriculture </h5>
+          <div class=" rounded-4 layer"> <span> we cater to diverse interests and levels of expertise</span></div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 mb-4">
+        <div class="box rounded-4 position-relative  bg-secondary-subtle text-center  align-items-center">
+          <i class="fa-solid fa-leaf fs-1 d-block mb-4"></i>
+          <h5>including arboriculture </h5>
+          <div class=" rounded-4 layer"> <span> we cater to diverse interests and levels of expertise</span></div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 mb-4">
+        <div class="box rounded-4 position-relative  bg-secondary-subtle text-center  align-items-center">
+          <i class="fa-solid fa-leaf fs-1 d-block mb-4"></i>
+          <h5>including arboriculture </h5>
+          <div class=" rounded-4 layer"> <span> we cater to diverse interests and levels of expertise</span></div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 mb-4">
+        <div class="box rounded-4 position-relative  bg-secondary-subtle text-center  align-items-center">
+          <i class="fa-solid fa-leaf fs-1 d-block mb-4"></i>
+          <h5>including arboriculture </h5>
+          <div class=" rounded-4 layer"> <span> we cater to diverse interests and levels of expertise</span></div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 mb-4">
+        <div class="box rounded-4 position-relative  bg-secondary-subtle text-center  align-items-center">
+          <i class="fa-solid fa-leaf fs-1 d-block mb-4"></i>
+          <h5>including arboriculture </h5>
+          <div class=" rounded-4 layer"> <span> we cater to diverse interests and levels of expertise</span></div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <!-- end section_two -->
+  <!-- start section_three -->
+    <div class="section_three text-center d-flex  align-items-center    justify-content-center mt-5 mb-5 ">
+      <div class="box">
+        <p class="mb-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem laborum soluta praesentium cupiditate accusamus placeat quia,</p>
+          <button class="btns text-capitalize">join us now</button>
+      </div>
+    </div>
+  <!-- end section_three -->
+  <!-- start section_four -->
+    <div class="section_four mt-5 ">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-lg-4">
-            <div class="info mb-5">
-              <div class=" image-footer">
-                <img src="./image/thumb_logo-1.png" alt="">
-              </div>
-              <div class="copyright">
-                we can make a possitive impact on our envitcomment and create a healthier .ore sustainable future fom all
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-2">
-            <div class="links">
-              <h5 class="text-dark mb-5">support</h5>
-              <ul class="list-unstyled lh-lg">
-            
-                <li>term & condtion </li>
-                <li>privacy poilcy </li>
-                <li>about us </li>
-                <li>articies</li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-5">
-            <div class="contact">
-              <h5 class="text-dark  mb-5 ">Contact Us</h5>
-              <form>
-                <div class="form-top_item">
-                  <div class="mb-3">
-                    <input type="email"  placeholder=" Name" >
-                  </div>
-                  <div class="mb-3">
-                    <input type="email"  placeholder=" Email">
-                  </div>
+          <div class="col-lg-4 col-md-4 mb-4">
+              <div class="card border-0">
+                <img src="./image/360_F_289652334_nBplOu8YUDpQNz6FCsjsFJEHMrRavbvZ.jpg" class="rounded" alt="...">
+                <div class=" p-0 mt-4 card-body">
+                  <p class="text-black-50">Some quick example text to build </p>
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class=" text-capitalize text-primary">read more ...</a>
                 </div>
-    
-                <div class="mb-3">
-                  <input type="email"  placeholder=" Address">
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-4 mb-4">
+              <div class="card border-0">
+                <img src="./image/360_F_289652334_nBplOu8YUDpQNz6FCsjsFJEHMrRavbvZ.jpg" class="rounded" alt="...">
+                <div class=" p-0 mt-4 card-body">
+                  <p class="text-black-50">Some quick example text to build </p>
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class=" text-capitalize text-primary">read more ...</a>
                 </div>
-                <!-- <button type="submit" class="btn btn-primary">Submit More</button> -->
-              </form>
-            </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-4 mb-4">
+              <div class="card border-0">
+                <img src="./image/360_F_289652334_nBplOu8YUDpQNz6FCsjsFJEHMrRavbvZ.jpg" class="rounded" alt="...">
+                <div class=" p-0 mt-4 card-body">
+                  <p class="text-black-50">Some quick example text to build </p>
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class=" text-capitalize text-primary">read more ...</a>
+                </div>
+              </div>
           </div>
         </div>
       </div>
     </div>
-    <footer>
-      <span>copyright | treeDialog</span>
-    </footer>
-  <script src="./js/bootstrap.min.js"></script>
+  <!-- end section_four -->
 
-</body>
-</html>
+  <!-- start footer -->
+  <div class="footer pt-5 pb-5 text-white-50 text-center text-md-start">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="info mb-5">
+            <div class=" image-footer">
+              <img src="./image/thumb_logo-1.png" alt="">
+            </div>
+            <span class="copyright">
+              we can make a possitive impact on our envitcomment and create a healthier .ore sustainable future fom all
+            </span>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-2">
+          <div class="links">
+            <h5 class="text-dark mb-5">support</h5>
+            <ul class="list-unstyled lh-lg">
+          
+              <li>term & condtion </li>
+              <li>privacy poilcy </li>
+              <li>about us </li>
+              <li>articies</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-5">
+          <div class="contact">
+            <h5 class="text-dark  mb-5 ">Contact Us</h5>
+            <form>
+              <div class="form-top_item">
+                <div class="mb-3">
+                  <input type="email"  placeholder=" Name" >
+                </div>
+                <div class="mb-3">
+                  <input type="email"  placeholder=" Email">
+                </div>
+              </div>
+  
+              <div class="mb-3">
+                <input type="email"  placeholder=" Address">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <span>copyright | treeDialog</span>
+  </footer>
+  <!-- end footer -->
+<script src="./js/bootstrap.bundle.min.js"></script>

@@ -1,0 +1,46 @@
+
+.navbar-brand{
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.navbar{
+  background: white;
+  padding: 0;
+}
+.navbar-brand{
+  padding: 0;
+}
+
+.navbar-collapse {
+  padding-left: 30px;
+}
+
+/* .sticky-top {
+  border: 1px solid;
+} */
+.navbar-brand img{
+  width: 200px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: black;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+  color: var(--main-color);
+}
+
+.navbar-toggler[aria-expanded="true"]{
+  border-color: var(--main-color) !important;
+}
+.nav-link:focus, .nav-link:hover {
+  border-color: var(--main-color) !important;
+}
+.fa-bars:before, .fa-navicon:before{
+  color: var(--main-color);
+}
+
+.nav-item .nav-link:hover{
+  color: var(--main-color);
+}

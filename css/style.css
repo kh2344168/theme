@@ -1,0 +1,78 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root{
+  --dark-color:#19283f;
+  --main-color:#0071bc;
+  --red-color:#ff3150;
+  --yellow-color:#ffc400;
+  --green-color:#0cdb69;
+  --section-color:#eff7fa;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.container{
+  width: 80%;
+  margin: auto;
+}
+.btns{
+  padding: 6px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.655);
+  background: var(--main-color);
+  color: white;
+  width: 10rem;
+  border-radius: 10px;
+}
+.btns:hover{
+  border: 1px solid var(--main-color);
+  background: white;
+  color:  var(--main-color);
+  transition: .6s;
+}
+
+ul li{
+  list-style: none;
+}
+
+
+
+
+
+
+
+.global_land{
+  background: var(--bs-blue);
+  background-image: url(../image/big-city.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 30rem;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.global_land::after{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #027cb1aa;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.global_land .box{
+  z-index: 1000;
+  text-align: center;
+}
+.global_land h1{
+  color: white;
+  font-size: 50px;
+}
+.global_land .box p{
+  color: #e1e1e1;
+  font-size: 20px;
+}
