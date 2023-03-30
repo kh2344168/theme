@@ -10,7 +10,6 @@ ul{
   content: "\f00c";
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
-  c: 15px;
   height: 15px;
   position: absolute;
   left: -20px;
@@ -84,3 +83,35 @@ ul{
     height: 12rem;
   }
 /* End section_four */
+/* start section_five */
+.section_five{
+  height: 12rem;
+  background-color: var(--section-color);
+}
+.section_five p{
+  color: var(--main-color);
+}
+.section_five input{
+  width: 15rem;
+  border-color: #0071bc;
+  height: 35px;
+}
+.section_five button{
+  background: white;
+  color: var(--main-color);
+  border: 1px solid;
+  border-radius: 10px;
+  transform: translateX(-10px);
+}
+/* @media (max-width: 767.98px) { 
+
+  .section_five input{
+    width: 10rem;
+
+  }
+  .section_five button{
+    width: 10rem;
+    padding: ;
+  }
+} */
+/* End section_five */

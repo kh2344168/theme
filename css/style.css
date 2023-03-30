@@ -9,7 +9,7 @@
   --red-color:#ff3150;
   --yellow-color:#ffc400;
   --green-color:#0cdb69;
-  --section-color:#eff7fa;
+  --section-color:#d8d8d8;
 }
 body{
   font-family: 'Roboto', sans-serif;
@@ -36,8 +36,17 @@ body{
 ul li{
   list-style: none;
 }
+input{
+  box-shadow: none;
+  border: 1px solid;
+  outline: none;
+  background-color: transparent;
+}
+/* input::placeholder ,
+textarea::placeholder {
+  color: white;
 
-
+} */
 
 
 
